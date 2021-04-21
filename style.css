@@ -8,11 +8,10 @@ ul{
     
 
 }
-#logo{
+.logo{  
     text-align: center;
-    
-    
 }
+
 .container-1{
     display: flex;
     justify-content: flex-end;
@@ -29,7 +28,12 @@ ul{
     justify-content: flex-end;
     font-size: 15px;
 }
-
+#search{
+    border-radius:10px;
+}
+#search-bar{
+    margin: auto;
+}
 footer{
     background-color: #f2f2f2;
 }
