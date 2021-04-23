@@ -6,62 +6,68 @@
 </head>
 <body>
     <nav>
-        <div>
-            <ul> 
-                <li><a href="htpps://www.mail.google.com">Gmail</a></li>
-                <li><a href="https://www.images.google.com">Images</a></li>
-                <li><a href="#">Apps</a></li>
-                <li><Img src="Images/account.png" alt="User Profile Picture" width="30px" height="30px"></Img></li>
-            </ul>
+        <div class="nav">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#">Apps</a>
+                <div id="sign-in"><a href="#" id="newAnc">SignIn</a></div>            
         </div>
         
     </nav>
-    <div>
-        <div>
+    <div class="flexbox-container">
+        <div class="item-1">
             <p>
                 <img src="images/logo.png" alt="Google logo">
             </p>
         </div>
     
-        <div>
+        <div class="item-2">
             <form>
-                <label for="search"></label>
-                <input type="search" id="search">
+                <div id="search-bar">
+                    <img src="/Images/searchBlack.png" alt="search icon" id="searchImg">
+                    <label for="search"></label>
+                    <input type="search" id="search">
+                </div>
+                
                 <br>
-                <button type="submit" class="google-search">Google Search</button>
-                <button type="submit" class="google-search">I'm Feeling Lucky</button>
+                <div class = "submit-buttons">
+                    <button type="submit" class="google-search">Google Search</button>
+                    <button type="submit" class="google-search">I'm Feeling Lucky</button>
+                </div>
+                
             </form>
         </div>
-    </div>
-    
-    <div>
-        <p>Google offered in: English</p>
-    </div>
-    <footer>
-        <div>
-            <p>Nepal</p>
+        <div class="item-3">
+            <p>Google offered in: <a href="#" id="blue">English</a></p>
         </div>
-        <hr>
-            <ul>
-                <div class="left-box">
-                    <li>About</li>
-                    <li>Advertising</li>
-                    <li>Business</li>
-                    <li>How it works</li>
-                </div>
-                <div class="right-box">
-                    <li>Privacy</li>
-                    <li>Terms</li>
-                    <li>Settings</li>
-                    
-                </div>
-            </ul>
+    </div>
     
-        
-        
-        
-        
-    </footer>
+    
+    <div class="footer">
+        <footer>
+            <div>
+                <p>Nepal</p>
+            </div>
+            <hr>
+                <div class="container">
+                    
+                    <div class="left-box">
+                        <a href="#">About</a> 
+                        <a href="#">Advertising</a>
+                        <a href="#">Business</a>
+                        <a href="#">How Search Works</a>
+                    </div>
+                    <div class="right-box">
+                        <a href="#">Privacy</a> 
+                        <a href="#">Terms</a> 
+                        <a href="#">Settings</a>
+                        
+                    </div>
+                
+                </div>              
+        </footer>
+    </div>
+    
 
 </body>
 </html>
