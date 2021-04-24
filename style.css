@@ -71,6 +71,7 @@ a:visited{
     border: 1px solid #dadce0;
     border-spacing: 5px;
     border-radius: 23px;
+    padding-right: 20px;
 }
 #searchImg{
     padding-right: 10px;
@@ -86,10 +87,10 @@ input[type=search] {
     font-weight: 400;
 }
 input[type=search]:focus{
-     outline: none;
+    outline: none;
 }
 search:active{
-     border: none;
+    border: none;
 }
 
 .submit-buttons{
